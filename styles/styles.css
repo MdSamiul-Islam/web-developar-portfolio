@@ -99,6 +99,10 @@ nav ul{
   max-width: 1140px;
   margin: 0 auto;
  }
+ .main section{
+  margin-top: 130px;
+  margin-bottom: 130px;
+ }
 
  /* about styles */
  .about{
@@ -106,7 +110,7 @@ nav ul{
   border-radius: 10px;
   padding: 130px 150px;
   text-align: center;
-  margin-top: 130px;
+
  }
  .about-items{
   display: flex;
@@ -131,4 +135,20 @@ gap: 24px;
   border-radius: 5px;
   width: 266px;
   height: 377px;
+}
+/* Resume section style */
+.resume-container{
+  display: flex;
+  gap: 24px;
+}
+.experince-sub-title{
+  font-size: 20px;
+  font-weight: 600px;
+  margin-bottom: 20px;
+}
+.experince-discription, .experince-sub-title{
+  color: #757575;
+}
+.resume-download-cv{
+  margin-top: 50px;
 }
